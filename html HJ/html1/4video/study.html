@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+</head>
+<body>
+    <h1>비디오태그</h1>
+    <p>홈페이지에 비디오 태그를 사용하여 영상을 입력할 수 있다</p>
+    <p>비디오의 속성명과 속성값이같으면 속성값을안적어도된다</p>
+    <p>영상을 자동으로키는 autoplay속성은 muted속성과 같이써야 한다</p>
+    <p>영상이 끝났을때 자동으로 다시켜주는 속성loop</p>
+    <video controls="controls" autoplay muted loop>
+        <source src="./video/video.webm" type="video/webm">
+        <source src="./video/video.mp4" type="video/mp4">
+    </video>
+    <p>비디오태그는 자식태그로 source태그를 사용하여 여러형태의 영상을 입력할 수 있다</p>
+    <p>source태그로 입력된 영상은 브라우저의 호환성에 의해 여러개중 한개만 재생된다</p>
+    <p>controls - 영상을 제어할 수 있는 컨트롤 박스 활성</p>
+    <p>autoplay - 영상을 자동재생할 수 있도록 함(muted포함해야함)</p>
+    <p>muted - 영상을 음소거한다</p>
+    <p>loop - 영상을 무한반복 시킨다</p>
+</body>
+</html>
